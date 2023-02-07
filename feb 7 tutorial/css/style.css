@@ -1,0 +1,31 @@
+body { background-color: blueviolet;}
+
+header {
+    background-color: beige; 
+    height: 120px;
+    width: 100%; 
+}
+
+.featured-books { 
+    background-color: darksalmon;
+    height: 80vh; /* vh set the height 80% of the view port*/ 
+}
+
+.new-releases { 
+    background-color: lightpink;
+    height: 200px; 
+    display: grid; 
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+.releases{ 
+    border: 1px solid black; 
+    height: 100%; 
+}
+.green-box { background-color: greenyellow;
+}
+
+.orange-box {
+    background-color: orange;
+}
+.blue-box { background-color: deepskyblue;}
+.yellow-box { background-color: lemonchiffon;}
